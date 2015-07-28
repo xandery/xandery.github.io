@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Permissions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DefaultGroupId>default</DefaultGroupId>
+  <Groups>
+    <Group>
+      <Id>default</Id>
+      <DisplayName>Guest</DisplayName>
+      <Members />
+      <Commands>
+        <Command>p</Command>
+        <Command>reward</Command>
+        <Command>balance</Command>
+        <Command>pay</Command>
+        <Command>rocket</Command>
+        <Command>color.white</Command>
+        <Command>kit.survival</Command>
+        <Command>kit.build</Command>
+        <Command>deathmessage</Command>
+      </Commands>
+      <ParentGroups />
+    </Group>
+    <Group>
+      <Id>moderator</Id>
+      <DisplayName>Moderator</DisplayName>
+      <Members>
+        <Member>76561197960287930</Member>
+      </Members>
+      <Commands>
+        <Command>p</Command>
+        <Command>p.reload</Command>
+        <Command>tp</Command>
+        <Command>tphere</Command>
+        <Command>i</Command>
+        <Command>test</Command>
+        <Command>deathmessage</Command>
+        <Command>jail</Command>
+        <Command>kit.*</Command>
+      </Commands>
+      <ParentGroups />
+    </Group>
+    <Group>
+      <Id>xander</Id>
+      <DisplayName>xander</DisplayName>
+      <Members>
+        <Member>76561198006092022</Member>
+      </Members>
+      <Commands>
+        <Command>p</Command>
+        <Command>p.reload</Command>
+        <Command>tp</Command>
+        <Command>tphere</Command>
+        <Command>i</Command>
+        <Command>test</Command>
+        <Command>deathmessage</Command>
+        <Command>jail</Command>
+        <Command>kit.*</Command>
+      </Commands>
+      <ParentGroups />
+    </Group>
+    <Group>
+      <Id>D1</Id>
+      <DisplayName>Donator</DisplayName>
+      <Members />
+      <Commands>
+        <Command>p</Command>
+        <Command>reward</Command>
+        <Command>balance</Command>
+        <Command>pay</Command>
+        <Command>rocket</Command>
+        <Command>deathmessage</Command>
+        <Command>kit.survival</Command>
+        <Command>kit.build</Command>
+        <Command>kit.D1</Command>
+        <Command>color.yellow</Command>
+      </Commands>
+      <ParentGroups />
+    </Group>
+    <Group>
+      <Id>D2</Id>
+      <DisplayName>Donator</DisplayName>
+      <Members>
+        <Member />
+      </Members>
+      <Commands>
+        <Command>p</Command>
+        <Command>reward</Command>
+        <Command>balance</Command>
+        <Command>pay</Command>
+        <Command>rocket</Command>
+        <Command>color.white</Command>
+        <Command>deathmessage</Command>
+        <Command>kit.survival</Command>
+        <Command>kit.build</Command>
+        <Command>kit.D2</Command>
+        <Command>color.yellow</Command>
+      </Commands>
+      <ParentGroups />
+    </Group>
+    <Group>
+      <Id>D3</Id>
+      <DisplayName>Donator</DisplayName>
+      <Members>
+        <Member />
+      </Members>
+      <Commands>
+        <Command>p</Command>
+        <Command>reward</Command>
+        <Command>balance</Command>
+        <Command>pay</Command>
+        <Command>rocket</Command>
+        <Command>color.white</Command>
+        <Command>deathmessage</Command>
+        <Command>kit.survival</Command>
+        <Command>kit.build</Command>
+        <Command>kit.D3</Command>
+        <Command>color.yellow</Command>
+      </Commands>
+      <ParentGroups />
+    </Group>
+  </Groups>
+</Permissions>
